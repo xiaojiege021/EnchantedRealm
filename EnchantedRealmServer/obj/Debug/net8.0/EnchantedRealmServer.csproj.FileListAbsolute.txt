@@ -1,0 +1,15 @@
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\bin\Debug\net8.0\EnchantedRealmServer.exe
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\bin\Debug\net8.0\EnchantedRealmServer.deps.json
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\bin\Debug\net8.0\EnchantedRealmServer.runtimeconfig.json
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\bin\Debug\net8.0\EnchantedRealmServer.dll
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\bin\Debug\net8.0\EnchantedRealmServer.pdb
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\obj\Debug\net8.0\EnchantedRealmServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\obj\Debug\net8.0\EnchantedRealmServer.AssemblyInfoInputs.cache
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\obj\Debug\net8.0\EnchantedRealmServer.AssemblyInfo.cs
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\obj\Debug\net8.0\EnchantedRealmServer.csproj.CoreCompileInputs.cache
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\obj\Debug\net8.0\EnchantedRealmServer.sourcelink.json
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\obj\Debug\net8.0\EnchantedRealmServer.dll
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\obj\Debug\net8.0\refint\EnchantedRealmServer.dll
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\obj\Debug\net8.0\EnchantedRealmServer.pdb
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\obj\Debug\net8.0\EnchantedRealmServer.genruntimeconfig.cache
+E:\unitywork\EnchantedRealm\EnchantedRealmServer\obj\Debug\net8.0\ref\EnchantedRealmServer.dll
