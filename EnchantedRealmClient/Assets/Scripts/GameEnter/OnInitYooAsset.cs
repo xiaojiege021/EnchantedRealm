@@ -31,7 +31,7 @@ public class OnInitYooAsset : MonoBehaviour
         // 初始化资源系统
         YooAssets.Initialize();
 
-        resPackage = YooAssets.CreatePackage("ResPackage");
+        resPackage = YooAssets.CreatePackage("DefaultPackage");
  
         // 设置该资源包为默认的资源包，可以使用YooAssets相关加载接口加载该资源包内容。
         YooAssets.SetDefaultPackage(resPackage);
@@ -56,8 +56,8 @@ public class OnInitYooAsset : MonoBehaviour
     private IEnumerator InitializeHostPlayMode()
     {
         // 注意：GameQueryServices.cs 太空战机的脚本类，详细见StreamingAssetsHelper.cs
-        string defaultHostServer = "http://127.0.0.1:8080/Android/";
-        string fallbackHostServer = "http://127.0.0.1:8080/Android/";
+        string defaultHostServer = "http://127.0.0.1:8080/Android";
+        string fallbackHostServer = "http://127.0.0.1:8080/Android";
         //string defaultHostServer = "https://ruijie666.oss-cn-beijing.aliyuncs.com/TestCDN/Windows/V1.0";
         //string fallbackHostServer = "https://ruijie666.oss-cn-beijing.aliyuncs.com/TestCDN/Windows/V1.0";
         var initParameters = new HostPlayModeParameters();
@@ -69,12 +69,14 @@ public class OnInitYooAsset : MonoBehaviour
         yield return initOperation;
         if (initOperation.Status == EOperationStatus.Succeed)
         {
+            Debug.Log("初始化资源成功");
            // CheckUpdate.Instance.SetTextMessage("资源包初始化成功！");
             var operation = resPackage.UpdatePackageVersionAsync();
             yield return operation;
             if (operation.Status == EOperationStatus.Succeed)
             {
                 resVersion = operation.PackageVersion;
+                //Debug.LogError("资源版本号：" + resVersion);
                 StartCoroutine(UpdatePackageManifest());
             }
         }
@@ -205,11 +207,20 @@ public class OnInitYooAsset : MonoBehaviour
             }
         }
 
-        string initScenelocation = "Assets/AssetBundles/GameSources/Scenes/Login";
+        string initScenelocation = "Assets/AssetBundles/Scenes/Login";
         var sceneMode = LoadSceneMode.Single;
         bool suspendLoad = false;
         SceneHandle handle1 = resPackage.LoadSceneAsync(initScenelocation, sceneMode, suspendLoad);
         yield return handle1;
         Debug.Log($"Scene name is {handle1.SceneName}");
+
+       // string Cubelocation = "Assets/AssetBundles/Prefabs/Cube.prefab";
+       // AssetHandle assetHandle = resPackage.LoadAssetAsync<GameObject>(Cubelocation);
+       //
+       // yield return assetHandle;
+       // GameObject go = assetHandle.InstantiateSync();
+       // Debug.Log($"Prefab name is {go.name}");
+
+
     }
 }
