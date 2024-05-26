@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnchantedRealmServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26830532fbe70e3c73621bd4611bd997522ea87d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnchantedRealmServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnchantedRealmServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
