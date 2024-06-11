@@ -16,5 +16,4 @@ public class BuildProtoCommand:EditorWindow
         // CopyABAOTHotUpdateDlls(target);
         AssetDatabase.Refresh();
     }
-
 }
