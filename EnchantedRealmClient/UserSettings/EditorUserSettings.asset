@@ -6,10 +6,13 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      value: 5652515e53025b580b0b092713755e441516197978797769782c4537e7b3633c
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 5652515e53025b580b0b092713755e441516197978797769782c4537e7b3633c
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      flags: 0
+    UIBuilder.EditorExtensionModeKey:
+      value: 37434103
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
